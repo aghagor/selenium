@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="selenium(failed)">
+    <classes>
+      <class name="BasePageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="verifyPopupSectionHasCorrectFunctionality"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- BasePageTest -->
+    </classes>
+  </test> <!-- selenium(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="24198" started-at="2020-09-30T17:25:08 AMT" finished-at="2020-09-30T17:25:32 AMT">
+    <groups>
+    </groups>
+    <test name="selenium" duration-ms="24198" started-at="2020-09-30T17:25:08 AMT" finished-at="2020-09-30T17:25:32 AMT">
+      <class name="BasePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:BasePageTest@4678c730]" name="setup" is-config="true" duration-ms="10862" started-at="2020-09-30T17:25:08 AMT" finished-at="2020-09-30T17:25:19 AMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="verifyPopupSectionHasCorrectFunctionality()[pri:0, instance:BasePageTest@4678c730]" name="verifyPopupSectionHasCorrectFunctionality" duration-ms="12708" started-at="2020-09-30T17:25:19 AMT" finished-at="2020-09-30T17:25:32 AMT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+The string is incorrect,  expected [No thanks, I don't like discounts] but found [No thnx, I don't like discounts],
+Click on 'Send me a coupon' button not redirected to correct page expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+The string is incorrect,  expected [No thanks, I don't like discounts] but found [No thnx, I don't like discounts],
+Click on 'Send me a coupon' button not redirected to correct page expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at BasePageTest.verifyPopupSectionHasCorrectFunctionality(BasePageTest.java:44)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPopupSectionHasCorrectFunctionality -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:BasePageTest@4678c730]" name="tearDown" is-config="true" duration-ms="598" started-at="2020-09-30T17:25:32 AMT" finished-at="2020-09-30T17:25:32 AMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- BasePageTest -->
+    </test> <!-- selenium -->
+  </suite> <!-- Default Suite -->
+</testng-results>
